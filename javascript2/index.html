@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="my.js"></script>
+    <script>
+        var age = prompt('あなたの年齢を入力してくだい');
+        alert(typeof parseInt(age));
+        alert(parseFloat('3.14'));
+        alert(parseInt('3.14'));
+        var dd = alert(Number('2.333'));
+
+        var year = prompt('あなたの生まれた年を入力してくだい');
+        var age = 2021 - year;//取过来的是字符串型，但是这里用的是减法，有隐式转换
+        alert('あなたは今年'+ age +　'才です');
+
+        var deta1 = prompt('一つ目の数値を入力してくだい');
+        var deta2 = prompt('二つ目の数値を入力してくだい');
+        alert(parseFloat(deta1) + parseFloat(deta2));
+    </script>
+</head>
+<body>
+
+    
+</body>
+</html>
